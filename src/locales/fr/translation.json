@@ -1,0 +1,18 @@
+{
+    "wordScramble": "Mots mélées",
+    "mysteryWord": "Mot mystère",
+    "guessAllWords": "Devine tous les mots",
+    "youWon": "Bravo c'est gagné !",
+    "maxWords": "mots max",
+    "letters": "lettres",
+    "newGame": "Nouvelle partie",
+    "needLetter": "Besoin d'une lettre ?",
+    "needHelp": "Besoin d'aide ?",
+    "dontLoseHope": "Ne pas perdre espoir!",
+    "almostOrNot": "Presque, ou pas",
+    "failed": "Raté",
+    "guess": "Deviner",
+    "lost": "Dommage c'est perdu !",
+    "guessAword": "Devine un mot",
+    "noDefinition": "Désolé pas de définitions de disponible. Peut être la prochaine fois."
+}

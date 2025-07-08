@@ -1,0 +1,18 @@
+{
+    "wordScramble": "Word scramble",
+    "mysteryWord": "Mystery word",
+    "guessAllWords": "Guess all the words",
+    "youWon": "Congratulations, you won!",
+    "maxWords": "max words",
+    "letters": "letters",
+    "newGame": "New game",
+    "needLetter": "Need a letter?",
+    "needHelp": "Need help?",
+    "dontLoseHope": "Dont lose hope!",
+    "almostOrNot": "Almost, or not",
+    "failed": "Failed",
+    "guess": "Guess",
+    "lost": "Too bad, it's lost!",
+    "guessAword": "Guess a word",
+    "noDefinition": "Sorry, no definitions available. Maybe next time."
+}
