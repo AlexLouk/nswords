@@ -1,15 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import './i18n'
 import reportWebVitals from './reportWebVitals'
-import { setPwaPrompt } from './state/standalone';
+import { setPwaPrompt } from './state/standalone'
 
-
-if ( !(window?.navigator as any)?.standalone && !window?.matchMedia('(display-mode: standalone)')?.matches ) {
+if (
+    !(window?.navigator as any)?.standalone &&
+    !window?.matchMedia('(display-mode: standalone)')?.matches
+) {
     window.addEventListener('beforeinstallprompt', (e) => {
-        e.preventDefault();
-        setPwaPrompt(e);
-    });
+        e.preventDefault()
+        setPwaPrompt(e)
+    })
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
@@ -25,10 +28,10 @@ if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
         navigator.serviceWorker
             .register('/nswords/sw.js')
             .then((registration) => {
-                console.log('Service Worker registered:', registration);
+                console.log('Service Worker registered:', registration)
             })
             .catch((error) => {
-                console.error('Service Worker registration failed:', error);
-            });
-    });
+                console.error('Service Worker registration failed:', error)
+            })
+    })
 }
